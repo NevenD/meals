@@ -21,6 +21,7 @@ class CategoriesScreen extends StatelessWidget {
             CategoryGridItem(
               title: category.title,
               color: category.color,
+              category: category,
               onSelectCategory: () {
                 // Handle category selection
               },
